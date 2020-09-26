@@ -1,0 +1,254 @@
+body {
+  background-color: #000000;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='105' viewBox='0 0 80 105'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='death-star' fill='%23540606' fill-opacity='0.4'%3E%3Cpath d='M20 10a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm15 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zM20 75a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zm30-65a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm0 65a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zM35 10a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zM5 45a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zm60 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  color: #ffffff;
+}
+
+.body {
+  margin: 0px 20px 0px 20px;
+}
+
+.about {
+  background-image: url("../img/31.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.name {
+  text-align: center;
+  margin: 0px;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+  background: black;
+  background: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  width: 80%;
+  padding: 20px;
+  border-radius: 50px;
+}
+
+.ajuste {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #000000;
+  color: #ffffff;
+  height: 40px;
+  margin-top: 15px;
+}
+
+.foto2 {
+  border: 15px;
+  border-radius: 25px;
+  border-style: solid;
+  border-color: blue;
+}
+
+.foto2:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  border-color: #f44336;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #000000;
+  height: 40px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.header .a {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  float: left;
+  color: #ffffff;
+  padding: 14px 16px;
+  font-size: 17px;
+}
+
+.a:hover {
+  color: #000000;
+  background-color: #65c426;
+}
+
+.informacion {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.skills {
+  margin: 40px;
+}
+
+.skills1 {
+  text-align: right;
+  color: #ffffff;
+}
+
+.language {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.language-skill {
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+  border-radius: 5px;
+  background-color: #642f2f;
+  padding: 20px;
+}
+
+.contact1 {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.contact1:hover {
+  border-color: lawngreen;
+}
+
+.education {
+  margin: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.insignia {
+  width: 180px;
+  margin: 20px;
+}
+
+.insignia1 {
+  width: 70px;
+  margin: 20px;
+}
+
+.bar-5 {
+  width: 90%;
+  height: 18px;
+  background-color: #19681c;
+}
+
+.bar-4 {
+  width: 90%;
+  height: 18px;
+  background-color: #3f7199;
+}
+
+.bar-3 {
+  width: 80%;
+  height: 18px;
+  background-color: #00bcd4;
+}
+
+.bar-2 {
+  width: 80%;
+  height: 18px;
+  background-color: #cca468;
+}
+
+.bar-1 {
+  width: 60%;
+  height: 18px;
+  background-color: #f44336;
+}
+
+.bar-6 {
+  width: 80%;
+  height: 18px;
+  background-color: #48502c;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #375743;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 100px;
+  color: #ffffff;
+}
+
+.btn:hover {
+  color: #000000;
+  background-color: red;
+}
+
+label {
+  margin: 10px 0px 10px 0px;
+}
+
+.cv {
+  color: red !important;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0.5em 1.2em;
+  background: rgba(0, 0, 0, 0);
+  border: 2px solid;
+  border-color: red;
+  transition: all 1s ease;
+  position: relative;
+  cursor: pointer;
+}
+
+.cv:hover {
+  background: red;
+  color: #ffffff !important;
+}
+
+.parrafo {
+  font-family: "Lobster", cursive;
+}
+
+.titulo {
+  font-family: "Abril Fatface", cursive;
+  font-size: 20px;
+}
+
+.lenguaje1 {
+  font-family: "Anton", sans-serif;
+  font-size: 18px;
+}
+
+.menuppal {
+  display: none;
+}
+
+/*# sourceMappingURL=estilos.css.map */
